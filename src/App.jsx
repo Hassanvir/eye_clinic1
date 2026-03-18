@@ -31,13 +31,14 @@ const App = () => {
                 <TechStack />
                 <Testimonial />
                 <Contact />
+                <AppointmentLayout/>
               </>
             }
           />
         </Route>
-        <Route element={<AppointmentLayout />}>
+        {/* <Route element={<AppointmentLayout />}>
           <Route path="/appointments" element={<Appointments />} />
-        </Route>
+        </Route> */}
       </Routes>
     </>
   )
