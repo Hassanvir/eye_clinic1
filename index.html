@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- <link rel="icon" type="image/svg+xml" href="/vite.svg" /> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>codeCollab</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Crypto Net Profit Calculator (Alberta)</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f3f6fa;
+      padding: 40px;
+      color: #333;
+    }
+    h2 {
+      color: #1a73e8;
+    }
+    .container {
+      max-width: 400px;
+      margin: auto;
+      background: #fff;
+      padding: 25px 30px;
+      border-radius: 12px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    }
+    label {
+      display: block;
+      margin-top: 15px;
+      font-weight: bold;
+    }
+    input {
+      width: 100%;
+      padding: 8px;
+      margin-top: 5px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      font-size: 14px;
+    }
+    button {
+      margin-top: 20px;
+      padding: 10px;
+      width: 100%;
+      background-color: #1a73e8;
+      color: #fff;
+      border: none;
+      border-radius: 6px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #0f5fd0;
+    }
+    #result {
+      margin-top: 20px;
+      font-size: 18px;
+      font-weight: bold;
+      color: #1a73e8;
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <h2>Net Profit After Tax (Alberta)</h2>
+
+  <label for="buyPrice">Buy Price:</label>
+  <input type="number" id="buyPrice" step="0.01" placeholder="e.g. 2.25">
+
+  <label for="sellPrice">Sell Price:</label>
+  <input type="number" id="sellPrice" step="0.01" placeholder="e.g. 2.35">
+
+  <label for="investment">Investment ($):</label>
+  <input type="number" id="investment" step="0.01" placeholder="e.g. 1100">
+
+  <label for="taxRate">Tax Rate (decimal):</label>
+  <input type="number" id="taxRate" step="0.01" value="0.26" placeholder="e.g. 0.26 (26%)">
+
+  <button onclick="calculateNetProfit()">Calculate Net Profit</button>
+
+  <div id="result"></div>
+</div>
+
+<script>
+  function calculateNetProfit() {
+    const buyPrice = parseFloat(document.getElementById("buyPrice").value);
+    const sellPrice = parseFloat(document.getElementById("sellPrice").value);
+    const investment = parseFloat(document.getElementById("investment").value);
+    const taxRate = parseFloat(document.getElementById("taxRate").value);
+
+    if (isNaN(buyPrice) || isNaN(sellPrice) || isNaN(investment) || isNaN(taxRate)) {
+      document.getElementById("result").innerText = "Please enter all values correctly.";
+      return;
+    }
+
+    const grossProfit = (investment / buyPrice) * sellPrice - investment;
+    const netProfit = grossProfit * (1 - 0.5 * taxRate);
+
+    document.getElementById("result").innerText = `Net Profit After Tax: $${netProfit.toFixed(2)}`;
+  }
+</script>
+
+</body>
+</html> -->
