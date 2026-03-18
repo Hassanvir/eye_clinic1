@@ -46,7 +46,7 @@ const Map = ({ selectedLocation, setSelectedLocation }) => {
       zoom={6.5}
       style={{ height: "100%", width: "100%" }}
     >
-      <TileLayer url="https://tiles.stadiamaps.com/tiles/osm_bright/{z}/{x}/{y}.png" />
+      <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
 
       <FlyToLocation selectedLocation={selectedLocation} />
 
