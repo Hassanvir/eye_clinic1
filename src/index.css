@@ -535,7 +535,7 @@ section {
   grid-template-columns: 1fr 1.2fr;
   gap: 20px;
   height: 80vh;
-  margin-top: 20vh;
+  margin-top: 10vh;
 }
 
 .locations-panel {

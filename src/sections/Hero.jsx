@@ -11,7 +11,7 @@ const Hero = () => {
   useGSAP(() => {
     gsap.fromTo('.hero-text h1',
       {
-        y: 50,
+        y: 150,
         opacity: 0
       },
       {
@@ -51,9 +51,7 @@ const Hero = () => {
             <p className=' md:text-xl realtive z-10 pointer-events-none'> Welcome to our optometry clinics (located inside Costco)
               <br />
               Providing excellent eye care with a clear focus on your vision and eye health</p>
-            {/* <Link to='/appointments' '> */}
               <Button className='md:w-80 md:h-16 w-60 h-12 ' id='button' text='Book Appointment' />
-            {/* </Link> */}
           </div>
         </header>
 
