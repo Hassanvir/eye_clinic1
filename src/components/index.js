@@ -1,11 +1,11 @@
 const navLinks = [
+  // {
+  //   name: "Work",
+  //   link: "#counter",
+  // },
   {
-    name: "Work",
-    link: "#work",
-  },
-  {
-    name: "Experience",
-    link: "#experience",
+    name: "Equipments",
+    link: "#equipments",
   },
   {
     name: "Skills",
@@ -19,51 +19,67 @@ const navLinks = [
 
 //basicaly making arrays which will be used as api
 const words = [
-  { text: "Ideas", imgPath: "/images/ideas.svg" },
-  { text: "Concepts", imgPath: "/images/concepts.svg" },
-  { text: "Designs", imgPath: "/images/designs.svg" },
-  { text: "Code", imgPath: "/images/code.svg" },
-  { text: "Ideas", imgPath: "/images/ideas.svg" },
-  { text: "Concepts", imgPath: "/images/concepts.svg" },
-  { text: "Designs", imgPath: "/images/designs.svg" },
-  { text: "Code", imgPath: "/images/code.svg" },
+  { text: "Vision", imgPath: "/images/ideas.svg" },
+  { text: "Family", imgPath: "/images/concepts.svg" },
+  { text: "Eye Health", imgPath: "/images/designs.svg" },
+  { text: "Future", imgPath: "/images/code.svg" },
+  { text: "Comfort", imgPath: "/images/ideas.svg" },
+  // { text: "Concepts", imgPath: "/images/concepts.svg" },
+  // { text: "Designs", imgPath: "/images/designs.svg" },
+  // { text: "Code", imgPath: "/images/code.svg" },
 ];
 
 const counterItems = [
-  { value: 15, suffix: "+", label: "Years of Experience" },
-  { value: 200, suffix: "+", label: "Satisfied Clients" },
-  { value: 108, suffix: "+", label: "Completed Projects" },
-  { value: 90, suffix: "%", label: "Client Retention Rate" },
+  {
+    value: 20,
+    suffix: '+',
+    label: 'Years of Experience'
+  },
+  {
+    value: 50,
+    suffix: 'k+',
+    label: 'Happy Patients'
+  },
+  {
+    value: 6,
+    suffix: '',
+    label: 'Convenient Locations'
+  },
+  {
+    value: 4,
+    suffix: '+',
+    label: 'Advanced Diagnostic Tools'
+  }
 ];
 
 const logoIconsList = [
   {
     imgPath: "/images/location1.png",
-    name:" Calgary North East (32st NE & 28 ave)"
-  },  
+    name: " Calgary North East (32st NE & 28 ave)"
+  },
   {
     imgPath: "/images/logos/company-logo-2.png",
-    name:"dr poon"
+    name: "dr poon"
 
   },
   {
     imgPath: "/images/logos/company-logo-3.png",
-    name:"dr poon"
+    name: "dr poon"
 
   },
   {
     imgPath: "/images/logos/company-logo-4.png",
-    name:"dr poon"
+    name: "dr poon"
 
   },
   {
     imgPath: "/images/logos/company-logo-5.png",
-    name:"dr poon"
+    name: "dr poon"
 
   },
   {
     imgPath: "/images/logos/company-logo-6.png",
-    name:"dr poon"
+    name: "dr poon"
 
   },
   // {

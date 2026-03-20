@@ -1,17 +1,15 @@
-import React from 'react'
-import { Link } from 'react-router-dom';
+
 
 
 const Button = ({ text, className, id }) => {
     return (
             <a onClick={(e) => {
+                // e.preventDefault()
                 const target = document.getElementById('counter')
                 if (target && id) {
                     const offset = window.innerHeight * 0.15;
-                    console.log(offset);
                     
                     const top = (target.getBoundingClientRect().top + window.scrollY + offset)*7.2
-                    console.log(top);
                     
                     window.scrollTo({ top, behavior: 'smooth' })
                 }

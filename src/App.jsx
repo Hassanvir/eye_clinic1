@@ -11,12 +11,12 @@ import { Route, Router, Routes } from 'react-router-dom'
 import Appointments from './components/Appointments'
 import MainLayout from './components/MainLayout'
 import AppointmentLayout from './components/AppointmentLayout'
+import AnimatedCounter from './components/HeroModel/AnimatedCounter'
 
 const App = () => {
   return (
     <>
 
-      {/* <Navbar /> */}
       <Routes>
         <Route element={<MainLayout />}>
 
@@ -24,8 +24,9 @@ const App = () => {
             element={
               <>
                 <Hero />
+                <AnimatedCounter/>
                 <ShowcaseSection />
-                <LogoSection />
+                {/* <LogoSection /> */}
                 <FeatureCard />
                 <Experience />
                 <TechStack />
@@ -36,9 +37,6 @@ const App = () => {
             }
           />
         </Route>
-        {/* <Route element={<AppointmentLayout />}>
-          <Route path="/appointments" element={<Appointments />} />
-        </Route> */}
       </Routes>
     </>
   )

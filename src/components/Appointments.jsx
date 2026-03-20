@@ -17,7 +17,7 @@ const Appointments = () => {
   const [selectedLocation, setSelectedLocation] = useState(null);
 
   return (
-    <div className="appointments-layout">
+    <div id="counter" className="appointments-layout">
 
       <LocationsPanel
         locations={locations}
