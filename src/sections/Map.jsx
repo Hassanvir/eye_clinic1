@@ -21,13 +21,14 @@ const locations = [
   { id: 2, name: "Edmonton North West", lat: 53.57880144326861, lng: -113.58144793855239 },
   { id: 3, name: "Edmonton South", lat: 53.4554961647276, lng: -113.46969903163784 },
   { id: 4, name: "Edmonton West", lat: 53.509910771861314, lng: -113.68582877103982 },
+
   { id: 5, name: "Calgary North East", lat: 51.07931771878426, lng: -113.99108142570084 },
   { id: 6, name: "Calgary South", lat: 50.98932463443588, lng: -114.04640972007842 },
   { id: 7, name: "Calgary North West", lat: 51.15486350724773, lng: -114.15548974951503 },
 
   { id: 8, name: "St Albert", lat: 53.67182366147271, lng: -113.63611598004088 },
 
-    { id: 10, name: "Okotoks", lat: 50.70615764348896, lng: -113.94626770351299 },
+  { id: 10, name: "Okotoks", lat: 50.70615764348896, lng: -113.94626770351299 },
 
 
 ];
