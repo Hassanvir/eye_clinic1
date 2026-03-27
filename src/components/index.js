@@ -8,13 +8,13 @@ const navLinks = [
     link: "#equipments",
   },
   {
-    name: "Skills",
-    link: "#skills",
+    name: "Exams",
+    link: "#eye-exams",
   },
-  {
-    name: "Testimonials",
-    link: "#testimonials",
-  },
+  // {
+  //   name: "Testimonials",
+  //   link: "#testimonials",
+  // },
 ];
 
 //basicaly making arrays which will be used as api
@@ -36,12 +36,12 @@ const counterItems = [
     label: 'Years of Experience'
   },
   {
-    value: 50,
-    suffix: 'k+',
-    label: 'Happy Patients'
+    value: 98,
+    suffix: '%',
+    label: 'Patient Satisfaction'
   },
   {
-    value: 6,
+    value: 11,
     suffix: '',
     label: 'Convenient Locations'
   },
@@ -111,19 +111,24 @@ const logoIconsList = [
 
 const abilities = [
   {
-    imgPath: "/images/seo.png",
-    title: "Quality Focus",
-    desc: "Delivering high-quality results while maintaining attention to every detail.",
+    imgPath: "/images/infant.jpg",
+    title: "Infants & Toddlers (0-5 Yrs)",
+    desc: "First exam recommended at 6-9 months to ensure proper eye coordination, alignment, and early development.",
   },
   {
-    imgPath: "/images/chat.png",
-    title: "Reliable Communication",
-    desc: "Keeping you updated at every step to ensure transparency and clarity.",
+    imgPath: "/images/school-icon.jpg",
+    title: "School-Aged (6-19 Yrs)",
+    desc: "Annual exams are crucial. 80% of learning is visual, making regular checks vital for academic success.",
   },
   {
-    imgPath: "/images/time.png",
-    title: "On-Time Delivery",
-    desc: "Making sure projects are completed on schedule, with quality & attention to detail.",
+    imgPath: "/images/adult-icon.jpg",
+    title: "Adults (20-64 Yrs)",
+    desc: "Exams every 1-2 years to update prescriptions, relieve digital eye strain, and screen for early eye diseases.",
+  },
+  {
+    imgPath: "/images/senior-icon.jpg",
+    title: "Seniors (65+ Yrs)",
+    desc: "Annual exams become essential to closely monitor and manage age-related conditions like cataracts and glaucoma.",
   },
 ];
 
