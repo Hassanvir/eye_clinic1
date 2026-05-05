@@ -1,4 +1,4 @@
-export const config = { runtime: 'nodejs20.x' };
+export const config = { runtime: 'nodejs' };
 
 const COOKIE_NAME = 'drquan_auth';
 const COOKIE_MAX_AGE = 60 * 60 * 24 * 7; // 7 days
